@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    position: relative;
+    
+}
+
+.container {
+    background-color:  hsl(216, 50%, 16%);
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    margin-top: 500px;
+    border-radius: 12px;
+    width: 350px;
+}
+
+.img1 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9%;
+    border-radius: 10px;
+}
+
+.calm {
+    color:  hsl(0, 0%, 100%);
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.collection {
+    color: hsla(0, 0%, 100%, 0.473);
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+.eth {
+    display: flex; 
+    margin-top: 25px;
+    margin-right: auto;
+}
+
+.left {
+    color: hsl(178, 100%, 50%);
+
+
+
+}
+
+.days {
+    color: hsla(0, 0%, 100%, 0.473);
+    float: right;
+    padding-left: 100px;
+}
+.eth1 {
+    padding-left: 30px
+}
+
+
+.hr {
+    color:  hsl(215, 32%, 27%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: 20 !important;
+}
+.footer {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    font-size: small;
+    width: 50px;
+}
+
+.creation {
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.473);
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width: 376px) {
+   .container {
+       width: 325px;
+   }
+   .collection {
+       font-size: 15px;
+   }
+   .avatar {
+       width: 40px;
+       margin-top: 10px;
+   }
+   .img1 {
+       width: 250px;
+       height: 250px;
+   }
+   
+   .days {
+       margin-left: -30px;
+   }
+}
